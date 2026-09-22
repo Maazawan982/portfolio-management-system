@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="100%" height="100%">
+  <!-- Background Canvas -->
+  <rect width="1000" height="700" fill="#8B9772" rx="16" />
+
+  <!-- Top Pill Badge: CERTIFICATE of COMPLETION -->
+  <g transform="translate(500, 110)">
+    <rect x="-170" y="-24" width="340" height="48" rx="24" fill="none" stroke="#1A2E05" stroke-width="2.2" />
+    <!-- Checkmark Circle -->
+    <circle cx="-135" cy="0" r="14" fill="none" stroke="#1A2E05" stroke-width="2" />
+    <path d="M -140 0 L -136 4 L -130 -4" fill="none" stroke="#1A2E05" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="10" y="6" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#1A2E05" letter-spacing="3">
+      CERTIFICATE <tspan font-weight="400" font-size="15">of</tspan> COMPLETION
+    </text>
+  </g>
+
+  <!-- Recipient Name -->
+  <text x="500" y="255" text-anchor="middle" font-family="Georgia, serif" font-size="44" font-weight="bold" fill="#1A2E05">
+    Maaz Nadeem
+  </text>
+  <text x="500" y="300" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-style="italic" fill="#1A2E05" opacity="0.8">
+    has completed
+  </text>
+
+  <!-- Main Course Title -->
+  <text x="500" y="400" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="48" font-weight="800" fill="#1A2E05">
+    Claude Code
+  </text>
+  
+  <text x="500" y="475" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="48" font-weight="800" fill="#1A2E05">
+    in Action
+  </text>
+
+  <!-- Issue Date Subtle -->
+  <text x="500" y="540" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#1A2E05" opacity="0.65" letter-spacing="1">
+    July 2026
+  </text>
+
+  <!-- Bottom Brand: ANTHROP\C -->
+  <g transform="translate(500, 620)">
+    <text x="0" y="0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" fill="#1A2E05" letter-spacing="6">
+      ANTHROP\C
+    </text>
+  </g>
+</svg>

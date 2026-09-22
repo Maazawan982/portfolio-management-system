@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="100%" height="100%">
+  <defs>
+    <!-- Multi-color border gradient -->
+    <linearGradient id="googleBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA4335" />
+      <stop offset="25%" stop-color="#FBBC05" />
+      <stop offset="60%" stop-color="#34A853" />
+      <stop offset="100%" stop-color="#4285F4" />
+    </linearGradient>
+    <linearGradient id="goldSeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1000" height="680" fill="#FFFFFF" rx="12" />
+  
+  <!-- Outer Decorative Color Border -->
+  <rect x="25" y="25" width="950" height="630" fill="none" stroke="url(#googleBorder)" stroke-width="4" rx="8" />
+  <rect x="35" y="35" width="930" height="610" fill="none" stroke="#E5E7EB" stroke-width="1" rx="6" />
+
+  <!-- Top Right Certificate ID -->
+  <text x="930" y="65" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#6B7280">
+    Certificate ID: GGO-2026-804-FT9876
+  </text>
+
+  <!-- Google Logo -->
+  <g transform="translate(420, 70)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="54" font-weight="700">
+      <tspan fill="#4285F4">G</tspan>
+      <tspan fill="#EA4335">o</tspan>
+      <tspan fill="#FBBC05">o</tspan>
+      <tspan fill="#4285F4">g</tspan>
+      <tspan fill="#34A853">l</tspan>
+      <tspan fill="#EA4335">e</tspan>
+    </text>
+  </g>
+
+  <!-- Title: Certificate of Completion -->
+  <text x="500" y="195" text-anchor="middle" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#1F2937">
+    Certificate of Completion
+  </text>
+  <text x="500" y="235" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#4B5563">
+    This is to certify that
+  </text>
+
+  <!-- Recipient Name -->
+  <text x="500" y="305" text-anchor="middle" font-family="Georgia, serif" font-size="44" font-weight="bold" fill="#111827">
+    Maaz Nadeem
+  </text>
+  <line x1="320" y1="325" x2="680" y2="325" stroke="#D1D5DB" stroke-width="1.5" />
+
+  <!-- Subtitle -->
+  <text x="500" y="355" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#4B5563">
+    has successfully completed the
+  </text>
+
+  <!-- Course Title -->
+  <text x="500" y="415" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" fill="#1E3A8A">
+    Full Stack Developer
+  </text>
+  <text x="500" y="445" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#6B7280">
+    1 Month Course
+  </text>
+
+  <!-- Description Paragraph -->
+  <text x="500" y="485" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#4B5563">
+    This course was conducted by Google and covered the fundamentals of
+  </text>
+  <text x="500" y="505" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#4B5563">
+    front-end and back-end development, databases, APIs, and deployment.
+  </text>
+  <text x="500" y="525" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#4B5563">
+    We wish you all the best in your future endeavors.
+  </text>
+
+  <!-- Left: Date of Completion -->
+  <g transform="translate(100, 560)">
+    <!-- Calendar icon -->
+    <rect x="0" y="5" width="28" height="26" rx="4" fill="none" stroke="#2563EB" stroke-width="2" />
+    <line x1="0" y1="13" x2="28" y2="13" stroke="#2563EB" stroke-width="2" />
+    <circle cx="8" cy="19" r="1.5" fill="#2563EB" />
+    <circle cx="14" cy="19" r="1.5" fill="#2563EB" />
+    <circle cx="20" cy="19" r="1.5" fill="#2563EB" />
+    <text x="40" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#6B7280">Date of Completion</text>
+    <text x="40" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#111827">4 August, 2026</text>
+  </g>
+
+  <!-- Center: Gold Certified Badge -->
+  <g transform="translate(500, 575)">
+    <!-- Outer Star/Serrated ring -->
+    <circle cx="0" cy="0" r="44" fill="url(#goldSeal)" filter="url(#shadow)" />
+    <circle cx="0" cy="0" r="38" fill="#F59E0B" />
+    <circle cx="0" cy="0" r="36" fill="none" stroke="#FEF3C7" stroke-width="1.5" stroke-dasharray="3,3" />
+    <text x="0" y="-18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" font-weight="700" fill="#78350F" letter-spacing="1">COURSE COMPLETED</text>
+    <text x="0" y="2" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">Google</text>
+    <text x="0" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" font-weight="700" fill="#78350F" letter-spacing="1">CERTIFIED</text>
+    <!-- Five stars -->
+    <text x="0" y="27" text-anchor="middle" font-size="7" fill="#78350F">★ ★ ★</text>
+  </g>
+
+  <!-- Right: Signature -->
+  <g transform="translate(730, 555)">
+    <!-- Cursive Signature Path for Sundar Pichai -->
+    <path d="M 0 20 Q 20 -10 40 20 T 70 10 T 100 25 T 140 10" fill="none" stroke="#1F2937" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 30 15 Q 45 5 60 25" fill="none" stroke="#1F2937" stroke-width="2" />
+    <line x1="-10" y1="36" x2="160" y2="36" stroke="#9CA3AF" stroke-width="1" />
+    <text x="75" y="52" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-style="italic" font-weight="bold" fill="#111827">Sundar Pichai</text>
+    <text x="75" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#6B7280">CEO, Google</text>
+  </g>
+
+  <!-- Verification URL Footer -->
+  <text x="500" y="648" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#6B7280">
+    Verify this certificate at: <tspan fill="#2563EB">https://learndigital.withgoogle.com/verify</tspan>
+  </text>
+</svg>

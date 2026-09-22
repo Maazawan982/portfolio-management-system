@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="100%" height="100%">
+  <defs>
+    <filter id="shadowSaylor" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1000" height="680" fill="#FFFFFF" rx="12" />
+  
+  <!-- Outer Dark Slate/Teal Border -->
+  <rect x="25" y="25" width="950" height="630" fill="none" stroke="#164E63" stroke-width="4" rx="8" />
+  <rect x="35" y="35" width="930" height="610" fill="none" stroke="#CBD5E1" stroke-width="1" rx="6" />
+
+  <!-- Corner Geometric Ornaments -->
+  <path d="M 25 65 L 65 25 M 35 65 L 65 35" stroke="#0E7490" stroke-width="2" />
+  <path d="M 975 65 L 935 25 M 965 65 L 935 35" stroke="#0E7490" stroke-width="2" />
+  <path d="M 25 615 L 65 655 M 35 615 L 65 645" stroke="#0E7490" stroke-width="2" />
+  <path d="M 975 615 L 935 655 M 965 615 L 935 645" stroke="#0E7490" stroke-width="2" />
+
+  <!-- Top Right Circular Saylor Monogram Seal -->
+  <g transform="translate(860, 110)">
+    <circle cx="0" cy="0" r="54" fill="#0E7490" filter="url(#shadowSaylor)" />
+    <circle cx="0" cy="0" r="48" fill="#155E75" stroke="#67E8F9" stroke-width="2" stroke-dasharray="3,3" />
+    <!-- Monogram brackets -->
+    <path d="M -18 -15 L -10 -15 L -10 15 L -18 15" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 18 -15 L 10 -15 L 10 15 L 18 15" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M -6 -5 L 4 5 M 4 -5 L -6 5" stroke="#67E8F9" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- Left Header: Saylor University Awards -->
+  <g transform="translate(70, 110)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="22" font-style="italic" fill="#475569">
+      Saylor University awards
+    </text>
+    <text x="0" y="55" font-family="Georgia, serif" font-size="46" font-weight="bold" fill="#0F172A">
+      Maaz Nadeem
+    </text>
+    <text x="0" y="105" font-family="Georgia, serif" font-size="19" font-style="italic" fill="#475569">
+      this certificate of achievement for
+    </text>
+  </g>
+
+  <!-- Course Title Banner -->
+  <g transform="translate(70, 275)">
+    <rect x="-10" y="-35" width="860" height="60" fill="#F8FAFC" rx="6" stroke="#E2E8F0" stroke-width="1" />
+    <text x="15" y="6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="800" fill="#0F172A">
+      CS207: Fundamentals of Machine Learning
+    </text>
+  </g>
+
+  <!-- Metrics & Details Grid -->
+  <g transform="translate(70, 360)">
+    <!-- Column 1: Issue Date & Cert ID -->
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#334155">
+      Issue Date: <tspan font-weight="700" fill="#0F172A">July 24, 2026</tspan>
+    </text>
+    <text x="0" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#334155">
+      Certificate ID: <tspan font-weight="700" fill="#0284C7" text-decoration="underline">0561328759MN</tspan>
+    </text>
+    <text x="0" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#475569">
+      Total Hours in Course: <tspan font-weight="600" fill="#0F172A">19 hours</tspan>
+    </text>
+    <text x="0" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#475569">
+      Continuing Education Units: <tspan font-weight="600" fill="#0F172A">1.9</tspan>
+    </text>
+  </g>
+
+  <!-- Column 2: Grade Badge (98.00%) -->
+  <g transform="translate(420, 350)">
+    <rect x="0" y="0" width="180" height="90" rx="8" fill="#F0FDF4" stroke="#86EFAC" stroke-width="2" />
+    <text x="90" y="32" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#15803D" letter-spacing="0.5">FINAL GRADE</text>
+    <text x="90" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="900" fill="#166534">98.00 %</text>
+  </g>
+
+  <!-- Column 3: IACET Accredited Provider Seal -->
+  <g transform="translate(680, 335)">
+    <rect x="0" y="0" width="220" height="120" rx="8" fill="#F8FAFC" stroke="#0284C7" stroke-width="1.5" />
+    <rect x="10" y="10" width="200" height="24" rx="4" fill="#0284C7" />
+    <text x="110" y="27" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="1">ACCREDITED</text>
+    <text x="110" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" fill="#0369A1">IACET</text>
+    <text x="110" y="92" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#0284C7">PROVIDER</text>
+  </g>
+
+  <!-- Bottom Left: Michael Saylor Signature -->
+  <g transform="translate(70, 520)">
+    <!-- Signature path for Michael J Saylor -->
+    <path d="M 0 30 Q 30 -15 60 25 T 100 15 T 150 20 T 190 5 T 230 35" fill="none" stroke="#0F172A" stroke-width="2.8" stroke-linecap="round" />
+    <line x1="0" y1="45" x2="260" y2="45" stroke="#94A3B8" stroke-width="1.5" />
+    <text x="0" y="68" font-family="Georgia, serif" font-size="17" font-weight="bold" fill="#0F172A">Michael J Saylor</text>
+  </g>
+
+  <!-- Bottom Right: Saylor.org logo -->
+  <g transform="translate(620, 540)">
+    <g transform="translate(0, 5)">
+      <!-- Open Book with Arrow -->
+      <path d="M 0 15 Q 15 5 30 15 L 30 45 Q 15 35 0 45 Z" fill="#0284C7" />
+      <path d="M 32 15 Q 47 5 62 15 L 62 45 Q 47 35 32 45 Z" fill="#0369A1" />
+      <!-- Pointer arrow -->
+      <polygon points="40,25 50,45 42,42 38,52 32,50 36,40 28,40" fill="#0F172A" stroke="#FFFFFF" stroke-width="1" />
+    </g>
+    <text x="75" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#0F172A">
+      saylor<tspan fill="#0284C7">.org</tspan>
+    </text>
+    <text x="77" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#64748B" letter-spacing="4">
+      UNIVERSITY
+    </text>
+  </g>
+</svg>

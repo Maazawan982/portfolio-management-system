@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="100%" height="100%">
+  <!-- Background Canvas -->
+  <rect width="1000" height="680" fill="#FFFFFF" rx="12" />
+  
+  <!-- Blue Geometric Accents -->
+  <polygon points="0,0 200,0 0,680" fill="#0284C7" opacity="0.9" />
+  <polygon points="850,680 1000,420 1000,680" fill="#0284C7" opacity="0.9" />
+
+  <!-- Top Logo: hp LIFE | hp Foundation -->
+  <g transform="translate(380, 60)">
+    <circle cx="25" cy="25" r="22" fill="#0284C7" />
+    <text x="25" y="32" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" font-style="italic" fill="#FFFFFF">hp</text>
+    <text x="58" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#334155">LIFE</text>
+    <line x1="108" y1="12" x2="108" y2="38" stroke="#94A3B8" stroke-width="1.5" />
+    <circle cx="140" cy="25" r="22" fill="#0284C7" />
+    <text x="140" y="32" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" font-style="italic" fill="#FFFFFF">hp</text>
+    <text x="175" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="600" fill="#334155">Foundation</text>
+  </g>
+
+  <!-- Title: Certificate of Completion -->
+  <text x="500" y="170" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-weight="bold" fill="#0F172A">
+    Certificate of Completion
+  </text>
+
+  <!-- Recipient Name -->
+  <text x="500" y="245" text-anchor="middle" font-family="Georgia, serif" font-size="44" font-weight="bold" fill="#0F172A">
+    Maaz Nadeem
+  </text>
+  <text x="500" y="285" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#475569">
+    has successfully completed the HP LIFE online course
+  </text>
+
+  <!-- Course Title -->
+  <text x="500" y="340" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="800" fill="#0284C7">
+    AI for Beginners
+  </text>
+
+  <!-- Description -->
+  <text x="500" y="390" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">
+    By completing this course, the student has gained an understanding of the impact of artificial intelligence
+  </text>
+  <text x="500" y="410" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">
+    on the technological landscape, learned key AI concepts, business applications, and ethical implications.
+  </text>
+
+  <text x="500" y="460" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#0F172A">
+    Presented 7/22/2026
+  </text>
+
+  <!-- Signature Michele Malejki -->
+  <g transform="translate(500, 520)">
+    <path d="M -70 20 Q -40 -10 0 20 T 40 10 T 70 25" fill="none" stroke="#0F172A" stroke-width="2.5" />
+    <line x1="-80" y1="35" x2="80" y2="35" stroke="#94A3B8" stroke-width="1.5" />
+    <text x="0" y="52" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#0F172A">Michele Malejki</text>
+    <text x="0" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">Executive Director, HP Foundation</text>
+  </g>
+
+  <!-- Certificate Serial Number -->
+  <text x="500" y="640" text-anchor="middle" font-family="monospace" font-size="11" fill="#64748B">
+    Certificate serial number: <tspan fill="#0F172A">b8b670cd-7bc2-40df-b4bd-f04751aacedf</tspan>
+  </text>
+</svg>

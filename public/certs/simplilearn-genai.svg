@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="100%" height="100%">
+  <!-- Background Canvas -->
+  <rect width="1000" height="680" fill="#FFFFFF" rx="12" />
+  
+  <!-- Outer Elegant Border -->
+  <rect x="25" y="25" width="950" height="630" fill="none" stroke="#CBD5E1" stroke-width="1.5" rx="8" />
+
+  <!-- Top Bar: Powered by Google Cloud (Left) & Simplilearn SkillUp (Right) -->
+  <g transform="translate(60, 60)">
+    <text x="0" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">Powered by</text>
+    <text x="0" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700">
+      <tspan fill="#4285F4">G</tspan><tspan fill="#EA4335">o</tspan><tspan fill="#FBBC05">o</tspan><tspan fill="#4285F4">g</tspan><tspan fill="#34A853">l</tspan><tspan fill="#EA4335">e</tspan> <tspan fill="#475569" font-weight="600">Cloud</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(940, 60)">
+    <text x="0" y="32" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="800">
+      <tspan fill="#EA580C">simpli</tspan><tspan fill="#0284C7">learn</tspan> <tspan fill="#2563EB" font-weight="900">SkillUP</tspan>
+    </text>
+  </g>
+
+  <!-- Title: DECLARATION OF COMPLETION -->
+  <text x="500" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#64748B" letter-spacing="4">
+    DECLARATION OF
+  </text>
+  <text x="500" y="245" text-anchor="middle" font-family="Georgia, serif" font-size="44" font-weight="bold" fill="#1E293B" letter-spacing="2">
+    COMPLETION
+  </text>
+
+  <!-- Recipient Name -->
+  <text x="500" y="325" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="#0F172A">
+    Maaz Nadeem
+  </text>
+  <line x1="250" y1="345" x2="750" y2="345" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="4,4" />
+
+  <text x="500" y="380" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#475569">
+    has successfully completed the online course:
+  </text>
+
+  <!-- Course Name -->
+  <text x="500" y="435" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#0369A1">
+    Introduction to Generative AI
+  </text>
+
+  <text x="500" y="490" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#64748B">
+    This professional has demonstrated initiative and a commitment to deepening their skills and advancing their career.
+  </text>
+
+  <!-- Date & Certificate Code -->
+  <g transform="translate(70, 560)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#0F172A">
+      30th July 2026
+    </text>
+    <text x="0" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#475569">
+      Certificate code : <tspan font-weight="700" fill="#0F172A">10534240</tspan>
+    </text>
+  </g>
+
+  <!-- Krishna Kumar Signature -->
+  <g transform="translate(800, 530)">
+    <path d="M 0 25 Q 30 -5 50 30 T 90 10 T 120 20" fill="none" stroke="#0F172A" stroke-width="2.5" />
+    <line x1="-20" y1="40" x2="140" y2="40" stroke="#94A3B8" stroke-width="1.5" />
+    <text x="60" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#0F172A">Krishna Kumar</text>
+    <text x="60" y="76" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">CEO, Simplilearn</text>
+  </g>
+
+  <!-- Disclaimer Footer -->
+  <text x="500" y="640" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94A3B8">
+    This certification is issued for the purpose of acknowledging completion of Google Cloud Courses on the Simplilearn portal.
+  </text>
+</svg>
