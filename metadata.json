@@ -1,6 +1,8 @@
 {
-  "name": "Maaz Nadeem - Developer Portfolio",
+  "name": "Portfolio Management System",
   "description": "Portfolio of Maaz Nadeem, a Full-Stack enthusiast and BS Computer Science student at University of Wah based in Rawalpindi, Pakistan.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
